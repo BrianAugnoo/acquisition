@@ -38,3 +38,24 @@
 {"level":"info","message":"::1 - - [07/Dec/2025:20:09:04 +0000] \"POST /api/auth/login HTTP/1.1\" 200 102 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
 {"level":"info","message":"User logged out successfully","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [07/Dec/2025:20:09:44 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:36:02 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:37:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:38:16 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/favicon.ico","service":"acquisitions-api","userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:38:17 +0000] \"GET /favicon.ico HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:44:58 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:44:58 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:45:03 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:20:45:05 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:45:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:45:15 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:45:16 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Dec/2025:20:45:17 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
